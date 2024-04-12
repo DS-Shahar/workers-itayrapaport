@@ -51,11 +51,11 @@ public class Main {
         Company company = new Company();
 
         
-        company.workers.insert(new Worker("John", 1, 2010));
-        company.workers.insert(new Worker("Alice", 2, 2012));
-        company.workers.insert(new Worker("Bob", 1, 2015));
-        company.workers.insert(new Worker("Emily", 2, 2013));
-        company.workers.insert(new Worker("David", 3, 2018));
+        company.workers.insert(new Worker("Miller", 1, 2010));
+        company.workers.insert(new Worker("diller", 2, 2012));
+        company.workers.insert(new Worker("niller", 1, 2015));
+        company.workers.insert(new Worker("biller", 2, 2013));
+        company.workers.insert(new Worker("killer", 3, 2018));
 
         
         System.out.println("Initial Queue: " + company.workers);
